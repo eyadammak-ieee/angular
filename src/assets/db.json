@@ -1,0 +1,33 @@
+{
+  "members": [
+    {
+      "cin": "112563",
+      "name": "eya",
+      "type": "student",
+      "createDate": "2025-05-02",
+      "id": "hI2d050AKhA"
+    },
+    {
+      "cin": "0125368",
+      "name": "chahd",
+      "type": "teacher",
+      "createDate": "2003-06-02",
+      "id": "cri5iFwoWNc"
+    },
+    {
+      "cin": "112563",
+      "name": "ines",
+      "type": "student",
+      "createDate": "2025-05-02",
+      "id": "djlCQSWL2vE"
+    },
+    {
+      "cin": "01548966",
+      "name": "loulou",
+      "type": "teacher",
+      "createDate": "2003-05-06",
+      "id": "zbumIk5yU-w"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

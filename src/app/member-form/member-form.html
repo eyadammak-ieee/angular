@@ -1,0 +1,67 @@
+<div class="member-form">
+
+  <h2>Ajouter un membre</h2>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+<!-- CIN -->
+<mat-form-field appearance="outline">
+  <mat-label>CIN</mat-label>
+  <input
+    matInput
+    type="text"
+    placeholder="Entrez le CIN"
+    formControlName="cin">
+</mat-form-field>
+
+<!-- Name -->
+<mat-form-field appearance="outline">
+  <mat-label>Nom</mat-label>
+  <input
+    matInput
+    type="text"
+    placeholder="Entrez le nom"
+    formControlName="name">
+</mat-form-field>
+
+<!-- Type -->
+<mat-form-field appearance="outline">
+  <mat-label>Type</mat-label>
+
+  <mat-select formControlName="type">
+    <mat-option value="student">Student</mat-option>
+    <mat-option value="teacher">Teacher</mat-option>
+  </mat-select>
+
+</mat-form-field>
+
+<!-- Create Date -->
+<mat-form-field appearance="outline">
+  <mat-label>Date de création</mat-label>
+  <input
+    matInput
+    type="date"
+    formControlName="createDate">
+</mat-form-field>
+
+<!-- Buttons -->
+<div class="buttons">
+
+  <button
+    mat-raised-button
+    type="button"
+    routerLink="/members">
+    Annuler
+  </button>
+
+  <button
+    mat-raised-button
+    color="primary"
+    type="submit">
+    Ajouter
+  </button>
+
+</div>
+
+  </form>
+
+</div>
