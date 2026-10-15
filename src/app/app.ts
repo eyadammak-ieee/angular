@@ -7,7 +7,7 @@ import { Template } from './template/template';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Member,Template],
+  imports: [RouterOutlet,Template],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

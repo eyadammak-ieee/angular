@@ -5,28 +5,109 @@
       "name": "eya",
       "type": "student",
       "createDate": "2025-05-02",
-      "id": "hI2d050AKhA"
+      "id": "1"
     },
     {
       "cin": "0125368",
       "name": "chahd",
       "type": "teacher",
       "createDate": "2003-06-02",
-      "id": "cri5iFwoWNc"
+      "id": "2"
     },
     {
-      "cin": "112563",
+      "cin": "1125634",
       "name": "ines",
       "type": "student",
       "createDate": "2025-05-02",
-      "id": "djlCQSWL2vE"
+      "id": "3"
     },
     {
       "cin": "01548966",
       "name": "loulou",
       "type": "teacher",
       "createDate": "2003-05-06",
-      "id": "zbumIk5yU-w"
+      "id": "3"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "titre": "Journée scientifique du laboratoire",
+      "description": "Présentation des travaux de recherche des membres du laboratoire.",
+      "dateDebut": "2026-11-10T09:00:00",
+      "dateFin": "2026-11-10T17:00:00",
+      "lieu": "ENIS, Sfax"
+    },
+    {
+      "id": "2",
+      "titre": "Séminaire IoT",
+      "description": "Séminaire autour de l'Internet des objets.",
+      "dateDebut": "2026-12-02T14:00:00",
+      "dateFin": "2026-12-02T16:00:00",
+      "lieu": "ENIS, Sfax"
+    },
+    {
+      "id": "3",
+      "titre": "Atelier Angular",
+      "description": "Atelier pratique de développement Web avec Angular.",
+      "dateDebut": "2026-12-15T09:00:00",
+      "dateFin": "2026-12-15T12:00:00",
+      "lieu": "ENIS, Sfax"
+    },
+    {
+      "id": "4",
+      "titre": "Conférence Intelligence Artificielle",
+      "description": "Conférence sur les applications de l'intelligence artificielle.",
+      "dateDebut": "2027-01-20T10:00:00",
+      "dateFin": "2027-01-20T16:00:00",
+      "lieu": "ENIS, Sfax"
+    }
+  ],
+  "membreEvents": [
+    {
+      "id": "1",
+      "membreId": "1",
+      "eventId": "1"
+    },
+    {
+      "id": "2",
+      "membreId": "1",
+      "eventId": "2"
+    },
+    {
+      "id": "3",
+      "membreId": "1",
+      "eventId": "3"
+    },
+    {
+      "id": "4",
+      "membreId": "2",
+      "eventId": "1"
+    },
+    {
+      "id": "5",
+      "membreId": "2",
+      "eventId": "4"
+    },
+    {
+      "id": "6",
+      "membreId": "3",
+      "eventId": "2"
+    },
+    {
+      "id": "7",
+      "membreId": "4",
+      "eventId": "1"
+    },
+    {
+      "id": "8",
+      "membreId": "4",
+      "eventId": "3"
+    },
+    {
+      "id": "9",
+      "membreId": "4",
+      "eventId": "4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
