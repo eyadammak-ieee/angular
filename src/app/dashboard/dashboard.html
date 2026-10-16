@@ -3,7 +3,7 @@
     <div class="chart-wrapper">
         
   <canvas baseChart
-          [type]="'doughnut'"
+    [type]="'doughnut'"
     [datasets]="chartData"
     [labels]="chartLabels"
     [options]="chartOptions"
@@ -14,11 +14,29 @@
 </mat-card>
 
 <mat-card>
-    <mat-card-title> Articals </mat-card-title>
-    <mat-card-subtitle>articles</mat-card-subtitle>
+    <mat-card-title> Event Members </mat-card-title>
+       <div class="chart-wrapper">
+        
+  <canvas baseChart
+    [type]="'line'"
+    [datasets]="chartDataLime"
+    [labels]="chartLabelsLime"
+    [options]="chartOptions"
+    >
+  </canvas>
+  </div>
 </mat-card>
 
 <mat-card>
     <mat-card-title> Events </mat-card-title>
-    <mat-card-subtitle>Events</mat-card-subtitle>
+      <div class="chart-wrapper">
+        
+  <canvas baseChart
+    [type]="'bar'"
+    [datasets]="chartDataBar"
+    [labels]="chartLabelsBar"
+    [options]="chartOptions"
+    >
+  </canvas>
+  </div>
 </mat-card>
